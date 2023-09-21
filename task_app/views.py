@@ -18,8 +18,6 @@ from django.contrib.contenttypes.models import ContentType
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("Hello World")
 
 
 class RegisterUser(CreateAPIView):
